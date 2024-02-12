@@ -1,0 +1,85 @@
+/* Общие стили */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Стили для заголовка */
+
+header {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Стили для основного контента */
+
+main {
+  padding: 20px;
+}
+
+#privacy, #terms {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Стили для футера */
+
+footer {
+  background-color: #f7f7f7;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Медиа-запросы */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+  }
+}
+
